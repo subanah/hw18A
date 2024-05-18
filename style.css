@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:"Ubuntu", sans-serif;
+}
+ul , ol{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+
+#pass{
+   height: 100vh;
+   background-color: #ccc;
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#pass .wrapper{
+   display: flex;
+     padding: 5px;
+}
+#pass .wrapper input{
+    padding: 10px;
+    border: 0;
+    outline: 0;
+}
+#pass .wrapper .btngrp{
+    display: flex;
+}
+#pass .wrapper button{
+    padding: 10px;
+    border: 0;
+}
+#pass .wrapper  .btn2{
+    display: none;
+}
+#pass .extra{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 250px;
+
+}
